@@ -110,46 +110,46 @@ namespace OOP_LAB_1
             }
             Console.WriteLine();
 
-            ////задание 3 б
-            //string[] strmss = new string[] { "qwe", "asd", "zxc" };
-            //for (int cnt2 = 0; cnt2 < 3; cnt2++)
-            //{
-            //    Console.Write(strmss[cnt2] + "\t");
-            //}
-            //Console.WriteLine();
-            //Console.WriteLine(strmss.Length);
-            //Console.WriteLine("Введите позицию");
-            //int pos = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Введите строку");
-            //strmss[pos] = Console.ReadLine();
-            //for (int cnt2 = 0; cnt2 < 3; cnt2++)
-            //{
-            //    Console.Write(strmss[cnt2] + "\t");
-            //}
-            //Console.WriteLine();
+            //задание 3 б
+            string[] strmss = new string[] { "qwe", "asd", "zxc" };
+            for (int cnt2 = 0; cnt2 < 3; cnt2++)
+            {
+                Console.Write(strmss[cnt2] + "\t");
+            }
+            Console.WriteLine();
+            Console.WriteLine(strmss.Length);
+            Console.WriteLine("Введите позицию");
+            int pos = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите строку");
+            strmss[pos] = Console.ReadLine();
+            for (int cnt2 = 0; cnt2 < 3; cnt2++)
+            {
+                Console.Write(strmss[cnt2] + "\t");
+            }
+            Console.WriteLine();
 
-            ////задание 3 в
-            //int[][] jugo = new int[3][];
-            //jugo[0] = new int[2];
-            //jugo[1] = new int[3];
-            //jugo[2] = new int[4];
-            //Console.WriteLine("Введите элементы ступенчатого массива");
-            //for (int cnt = 0; cnt < jugo.Length; cnt++)
-            //{
-            //    for (int cnt2 = 0; cnt2 < jugo[cnt].Length; cnt2++)
-            //    {
-            //        jugo[cnt][cnt2] = int.Parse(Console.ReadLine());
-            //    }
-            //}
-            //Console.WriteLine();
-            //foreach (int[] eac in jugo)
-            //{
-            //    foreach (int eac2 in eac)
-            //    {
-            //        Console.Write(eac2 + "\t");
-            //    }
-            //    Console.WriteLine();
-            //}
+            //задание 3 в
+            int[][] jugo = new int[3][];
+            jugo[0] = new int[2];
+            jugo[1] = new int[3];
+            jugo[2] = new int[4];
+            Console.WriteLine("Введите элементы ступенчатого массива");
+            for (int cnt = 0; cnt < jugo.Length; cnt++)
+            {
+                for (int cnt2 = 0; cnt2 < jugo[cnt].Length; cnt2++)
+                {
+                    jugo[cnt][cnt2] = int.Parse(Console.ReadLine());
+                }
+            }
+            Console.WriteLine();
+            foreach (int[] eac in jugo)
+            {
+                foreach (int eac2 in eac)
+                {
+                    Console.Write(eac2 + "\t");
+                }
+                Console.WriteLine();
+            }
 
             // задание 3 г
             var array = new object[1];
@@ -202,9 +202,6 @@ namespace OOP_LAB_1
             int[] W = { 1,5, 6, 7, 2, 3 };
             string STR = "qwer";
             LocFunc(W, STR);
-
-
-
         }
     }
 }
